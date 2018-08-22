@@ -1,0 +1,7 @@
+site:
+    title: 'Walking On A Rat Trail'
+    description: 'Describe the mind of an anarcho-green sweeted neglected misery figure'
+    author: ftr
+    pretty_urls: true
+smartypants:
+    enable: true

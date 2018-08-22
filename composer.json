@@ -1,0 +1,19 @@
+{
+    "name": "giftnuss/new-homepage",
+    "description": "a homepage",
+    "homepage": "https://giftnuss.github.io/",
+    "authors": [
+        {
+	    "name": "Mike Würfel",
+	    "homepage": "https://hambacherforst.org"
+	    }
+    ],
+    "require": { },
+    "require-dev": {
+	    "php": ">=v5.5.0",
+        "piecrust-php/piecrust": "dev-master"
+    },
+    "repositories": {
+        "packagist": { "url": "https://packagist.org", "type": "composer" }
+    }
+}

@@ -1,0 +1,10 @@
+site:
+    title: Your New PieCrust Website
+    description: A sample website running with PieCrust
+    
+smartypants:
+    enable: true
+
+markdown:
+    use_markdown_extra: true
+

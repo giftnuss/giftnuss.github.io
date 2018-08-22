@@ -1,0 +1,18 @@
+---
+title: My new blog
+layout: blog
+format: none
+---
+
+{% for post in pagination.posts %}
+{% include 'partial_post.html' %}
+{% endfor %}
+
+<--markdown-->
+{% if not pagination.has_posts %}
+It looks like you don't have any posts written! You can create a new one with the following `chef` command:
+
+    chef prepare post my-new-post-slug
+
+As usual with `chef`, you must run this command from a directory located *inside* your website's root (so either the root or a sub-directory). Also, `my-new-post-slug` here should be what you want for the part of the post's URL that comes after the root URL.
+{% endif %}
